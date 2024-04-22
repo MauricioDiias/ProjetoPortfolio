@@ -124,4 +124,19 @@ footer {
 span {
   background-color: rgb(94, 23, 235);
 }
-
+@media screen and (max-width: 680px) {
+  header{
+    flex-direction: column;
+    padding-bottom: 15px;
+  }
+  .container{
+    flex-direction: column-reverse;
+  }
+  .container-content{
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-rigth{
+    padding-top: 10px;
+  }
+}
